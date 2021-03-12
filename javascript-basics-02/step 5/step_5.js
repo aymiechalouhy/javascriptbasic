@@ -4,25 +4,10 @@ var img3 = document.querySelector("#image3");
 var img4 = document.querySelector("#image4");
 var img5 = document.querySelector("#image5");
 
-const  changeI = (id) => {
-    if(id == "img1"){
-        img1.src = "images/image1_2.jpg";
-    }
-    else if(id == "img2"){
-        img2.src = "images/image2_2.jpg";
-    }
-    else if(id == "img3"){
-        img3.src = "images/image3_2.jpg";
-    }
-    else if(id == "img4"){
-        img4.src = "images/image4_2.jpg";
-    }
-    else if(id == "img5")
-        img5.src = "images/image5_2.jpg";
-};
-
-img1.addEventListener("mouseover", ()=>{changeI("img1")} );
-img2.addEventListener("mouseover", ()=>{changeI("img2")} );
-img3.addEventListener("mouseover", ()=>{changeI("img3")} );
-img4.addEventListener("mouseover", ()=>{changeI("img4")} );
-img5.addEventListener("mouseover", ()=>{changeI("img5")} );
+function changeall(){
+    document.getElementById("image1").src="images/image1_2.jpg";
+    document.getElementById("image2").src="images/image2_2.jpg";
+    document.getElementById("image3").src="images/image3_2.jpg";
+    document.getElementById("image4").src="images/image4_2.jpg";
+    document.getElementById("image5").src="images/image5_2.jpg";
+  }
