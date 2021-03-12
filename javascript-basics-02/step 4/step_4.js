@@ -3,10 +3,15 @@ function resett(){
     var surname = document.querySelector("#surname");
     var city = document.querySelector("#city");
    
-    var info = confirm("Clear all fields ?");
-          if (info) {
-            name.value = " ";
-            surname.value = " ";
-            city.value = " ";
-          }
+  
+
+      var res = confirm("Are you sure you want to reset?");
+      if (res) {
+          document.getElementById('name').value = "";
+          document.getElementById('surname').value = "";
+          document.getElementById('city').value = "";
+      } else {
+        
+      }
+   
 }
