@@ -4,7 +4,7 @@ var img3 = document.querySelector("#image3");
 var img4 = document.querySelector("#image4");
 var img5 = document.querySelector("#image5");
 
-const  changeImg = (id) => {
+const  changeI = (id) => {
     if(id == "img1"){
         img1.src = "images/image1_2.jpg";
     }
@@ -21,8 +21,8 @@ const  changeImg = (id) => {
         img5.src = "images/image5_2.jpg";
 };
 
-img1.addEventListener("mouseover", ()=>{changeImg("img1")} );
-img2.addEventListener("mouseover", ()=>{changeImg("img2")} );
-img3.addEventListener("mouseover", ()=>{changeImg("img3")} );
-img4.addEventListener("mouseover", ()=>{changeImg("img4")} );
-img5.addEventListener("mouseover", ()=>{changeImg("img5")} );
+img1.addEventListener("mouseover", ()=>{changeI("img1")} );
+img2.addEventListener("mouseover", ()=>{changeI("img2")} );
+img3.addEventListener("mouseover", ()=>{changeI("img3")} );
+img4.addEventListener("mouseover", ()=>{changeI("img4")} );
+img5.addEventListener("mouseover", ()=>{changeI("img5")} );
