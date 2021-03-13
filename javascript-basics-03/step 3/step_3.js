@@ -1,9 +1,9 @@
-function green(){
+function green_color(){
 	document.getElementById("text").style.color = 'green';
 }
-function red(){
+function red_color(){
 	document.getElementById("text").style.color = 'red';
 }
-function blue(){
+function blue_color(){
 	document.getElementById("text").style.color = 'blue';
 }
